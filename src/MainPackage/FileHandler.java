@@ -1,3 +1,4 @@
+package MainPackage;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -24,4 +25,3 @@ public class FileHandler {
     public static void write(String path) throws IOException {
     }
 }
-

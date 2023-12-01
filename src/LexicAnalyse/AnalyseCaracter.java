@@ -9,23 +9,23 @@ public class AnalyseCaracter extends AnalyseContract {
 
 		this.tokenValue = lexeme;
 		if (lexeme.matches("\\=")) {
-			this.tokenName = "att_op";
+			this.tokenName = "operator";
 		} else if (lexeme.matches("\\(")) {
-			this.tokenName = "l_paren";
+			this.tokenName = "delimiter";
 		} else if (lexeme.matches("\\)")) {
-			this.tokenName = "r_paren";
+			this.tokenName = "delimiter";
 		} else if (lexeme.matches("\\{")) {
-			this.tokenName = "l_bracket";
+			this.tokenName = "delimiter";
 		} else if (lexeme.matches("\\}")) {
-			this.tokenName = "r_bracket";
+			this.tokenName = "delimiter";
 		} else if (lexeme.matches("\\,")) {
-			this.tokenName = "comma";
+			this.tokenName = "delimiter";
 		} else if (lexeme.matches("\\;")) {
-			this.tokenName = "semicolon";
+			this.tokenName = "delimiter";
 		} else if (lexeme.matches("\\[")) {
-			this.tokenName = "l_brace";
+			this.tokenName = "delimiter";
 		} else if (lexeme.matches("\\]")) {
-			this.tokenName = "r_brace";
+			this.tokenName = "delimiter";
 		} else {
 			found = false;
 		}

@@ -8,7 +8,7 @@ public class AnalyseString extends AnalyseContract {
         boolean found = true;
 
 		if (lexeme.trim().matches("\"(.+)\"")) {
-            this.tokenName = "string";
+            this.tokenName = "String";
             this.tokenValue = lexeme;
 		} else {
 			found = false;

@@ -1,8 +1,5 @@
 package LexicAnalyse;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import LexicAnalyse.Contract.AnalyseContract;
 
 public class AnalyseReservedWord extends AnalyseContract {

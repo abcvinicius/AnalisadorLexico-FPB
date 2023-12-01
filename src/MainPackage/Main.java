@@ -1,9 +1,8 @@
+package MainPackage;
 import java.io.IOException;
-import java.util.Iterator;
 
-import LexicAnalyse.*;
-import LexicAnalyse.Contract.AnalyseContract;
-import SintaticAnalyse.*;
+import LexicAnalyse.LexicAnalyse;
+import LexicAnalyse.SymbolTable;
 
 public class Main {
 

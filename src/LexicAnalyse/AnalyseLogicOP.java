@@ -8,11 +8,11 @@ public class AnalyseLogicOP extends AnalyseContract {
 		boolean found = true;
 
 		if (lexeme.matches("\\&{2}")) {
-			this.tokenName = "logic_op";
+			this.tokenName = "logic_operator";
 		} else if (lexeme.matches("\\|{2}")) {
-			this.tokenName = "logic_op";
+			this.tokenName = "logic_operatore";
 		} else if (lexeme.matches("\\!")) {
-			this.tokenName = "logic_op";
+			this.tokenName = "logic_operator";
 		} else {
 			found = false;
 		}
